@@ -131,6 +131,7 @@ var instance = axios.create({
 # API
 
 ## Request method aliases
+```
 axios.request(config)
 axios.get(url[, config])
 axios.delete(url[, config])
@@ -139,12 +140,16 @@ axios.options(url[, config])
 axios.post(url[, data[, config]])
 axios.put(url[, data[, config]])
 axios.patch(url[, data[, config]])
+```
 
 ## Concurrency
+```
 axios.all(iterable)
 axios.spread(callback)
+```
 
 ## Instance methods
+```
 axios#create([config])
 axios#request(config)
 axios#get(url[, config])
@@ -154,6 +159,7 @@ axios#options(url[, config])
 axios#post(url[, data[, config]])
 axios#put(url[, data[, config]])
 axios#patch(url[, data[, config]])
+```
 
 # Request Config
 
@@ -324,6 +330,7 @@ axios#patch(url[, data[, config]])
   // and an XMLHttpRequest instance the browser
   request: {}
 }
+```
 
 ## Response Using `Then`
 ```
