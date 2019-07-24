@@ -443,7 +443,7 @@ source.cancel('Operation canceled by the user.');
 ```
 
 ## Create cancel token
-
+```
 var CancelToken = axios.CancelToken;
 var cancel;
 
@@ -456,3 +456,4 @@ axios.get('/user/12345', {
 
 // cancel the request
 cancel();
+```
